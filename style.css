@@ -1,0 +1,175 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    background: url('image.png') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 3.5em;
+    margin: 0;
+    color: #fff;
+}
+
+.hero-content p {
+    font-size: 1.5em;
+    margin-top: 10px;
+    color: #f8f8f8;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background: red;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: darkred;
+}
+
+/* About Section */
+.about-section {
+    background: #222;
+    padding: 80px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.about-image {
+    position: relative;
+    border: 8px solid #ff004f;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.about-image img {
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.experience-box {
+    position: absolute;
+    bottom: -10px;
+    left: -20px;
+    background: red;
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.experience-box span {
+    font-size: 2em;
+    display: block;
+}
+
+.about-text {
+    max-width: 600px;
+    padding-left: 20px;
+}
+
+.about-text h2 {
+    font-size: 2.5em;
+    color: red;
+    margin-bottom: 10px;
+}
+
+.about-text p {
+    font-size: 1.2em;
+    color: #ccc;
+    line-height: 1.6;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 0 10px;
+    color: red;
+    font-size: 1.8em;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.social-links a:hover {
+    color: darkred;
+}
+
+footer {
+    background: #000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.social-links {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 1.5em;
+    color: red;  /* Change to any visible color */
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.social-links a:hover {
+    color: darkred;
+}
