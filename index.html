@@ -3,44 +3,148 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sharon's Portfolio</title>
+    <title>Sharon Otieno - Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-
+    <script defer src="script.js"></script>
 </head>
 <body>
-    
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="overlay"></div>
-        <div class="hero-content">
-            <h1>Hi, I'm Sharon</h1>
-            <p>I love baking, dancing, singing, and reading novels. Reading novels means a lot to me.</p>
-            <a href="#about" class="btn">About Me</a>
+    <!-- Navigation -->
+    <header>
+        <h1>Sharon Otieno</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Homepage -->
+    <section id="home">
+        <h2>Welcome to My Portfolio</h2>
+        <p>Hi, I'm Sharon Otieno. I'm waiting to join university. I'm also interested in being a developer, which is why I joined the JKUAT Inspire Youth in Stem.</p>
+        <img src="image.png" alt="Sharon Otieno">
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I got into software engineering to determine whether it could be a career choice for me, and so far, it's okay. My goal is to create a career that allows me to express myself through the things I love while having the freedom to shape my own path.</p>
+        <p>One of my proudest moments in high school was as the Chair of the Wildlife Club. To deal with low membership, I organized a school-wide competition for essays, poems, and art. It successfully increased membership and was a rewarding leadership experience.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+
+        <!-- Reign Website -->
+        <div class="project">
+            <img src="reign.png" alt="Reign Website Preview">
+            <h3>Reign Website</h3>
+            <p>Reign is an affiliate marketing platform designed to allow users to promote products using images, videos, and links. It features a mafia-inspired aesthetic with a sleek black, red, gray, and gold color scheme.</p>
+            <button class="toggle-details">View More</button>
+            <div class="details">
+                <p>It allows users to sign up, log in, and create promotional content with affiliate links. The design ensures a smooth user experience with a focus on visual appeal.</p>
+                <a href="#" target="_blank">View Project</a>
+            </div>
+        </div>
+
+        <!-- Eatery Website -->
+        <div class="project">
+            <img src="eatery.png" alt="Eatery Website Preview">
+            <h3>Eatery Website</h3>
+            <p>This is a food-ordering website hosted on GitHub. It allows customers to browse menus, place orders, and interact with the platform easily.</p>
+            <button class="toggle-details">View More</button>
+            <div class="details">
+                <p>The site features responsive design, easy navigation, and an intuitive interface for ordering meals.</p>
+                <a href="https://github.com/sharon256256/eatery-website" target="_blank">View Project</a>
+            </div>
+        </div>
+
+        <!-- Airwave Website -->
+        <div class="project">
+            <img src="airwave.png"Airwave Website Preview"> 
+            <h3>Airwave Website</h3>
+            <p>Airwave is a group project for affiliate marketing. It provides a pre-built platform where users can advertise products without needing their own website.</p>
+            <button class="toggle-details">View More</button>
+            <div class="details">
+                <p>Features include user accounts, product promotions, and a trending section, all built with PHP and MySQL.</p>
+                <a href="#" target="_blank">View Project</a>
+            </div>
         </div>
     </section>
-    
-    <!-- About Section -->
-    <section id="about" class="about-section">
-        <div class="about-container">
-            <div class="about-image">
-                <img src="image.png" alt="Sharon's Picture">
-            </div>
-            <div class="about-text">
-                <h2>Introduction About Me</h2>
-                <p>Welcome to my personal portfolio! I am passionate about creativity and storytelling through various forms of art. From baking delicious treats to losing myself in the world of novels, I find joy in expressing myself through different mediums.</p>
-                <div class="social-links">
-                    <a href="https://www.tiktok.com/@aulaa.a.a?is_from_webapp=1&sender_device=pc" target="_blank"><i class="fab fa-tiktok"></i></a>
-                    <a href="https://www.instagram.com/aulaa.a.a/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
-                    <a href="https://myreignlovestoblogmyreignlovestoblog.wordpress.com/" target="_blank"><i class="fab fa-wordpress"></i></a>
-                </div>
-            </div>
+
+    <!-- Secret Riddle Section -->
+    <section id="riddle">
+        <h2>Unlock a Secret</h2>
+        <p>Answer the riddle correctly to discover more about me!</p>
+        <p><em>"I start soft but end firm, I rise though I have no legs, I need warmth but not a hug, I bring joy in layers. What am I?"</em></p>
+        <input type="text" id="riddle-answer" placeholder="Your answer...">
+        <button id="check-answer">Submit</button>
+        <div id="secret-section" style="display: none;">
+            <h2>My Love for Baking 🍰</h2>
+            <p>
+                It all started with a craving. Not just for cake, but for the magic of creating something from scratch. The first time I baked, I was mesmerized by how simple ingredients—flour, sugar, eggs, and butter—could transform into something so warm, soft, and sweet. That feeling of watching a cake rise in the oven? Pure joy.
+
+What started as a curiosity quickly became a passion. I began experimenting, trying new flavors, testing different techniques, and, of course, making a mess in the kitchen. Before I knew it, baking became more than just a hobby—it became something I wanted to share.
+
+That’s when I decided to turn my passion into a business. I started selling cakes, each one baked with love and a touch of creativity. Every order I get is a reminder of why I do this—because nothing beats the happiness of seeing someone enjoy something I made or the nervousness when someone gives me their review😅.
+
+Plus, I get to eat cakes whenever I want! 😆 And it doesn’t stop there—I bake my own cookies, biscuits, sweets, toffees, éclairs, and even chocolate. There’s just something special about creating my own treats from scratch, knowing exactly what goes into them, and making them taste just the way I like.
+
+Baking isn’t just about mixing ingredients; it’s about creating moments, memories, and pure happiness—one cake or sweet treat at a time. 💕
+
+
+                </p>
         </div>
     </section>
-    
-    <footer>
-        <p>&copy; 2025 Sharon. All rights reserved.</p>
-    </footer>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Toggle Project Details
+            document.querySelectorAll(".toggle-details").forEach(button => {
+                button.addEventListener("click", function() {
+                    this.nextElementSibling.classList.toggle("show");
+                });
+            });
+
+            // Contact Form Validation
+            document.getElementById("contact-form").addEventListener("submit", function(event) {
+                const email = document.getElementById("email").value;
+                if (!email.includes("@")) {
+                    alert("Please enter a valid email address.");
+                    event.preventDefault();
+                }
+            });
+
+            // Riddle Check
+            document.getElementById("check-answer").addEventListener("click", function() {
+                const answer = document.getElementById("riddle-answer").value.toLowerCase();
+                if (answer === "baking") {
+                    document.getElementById("secret-section").style.display = "block";
+                } else {
+                    alert("Try again!");
+                }
+            });
+        });
+    </script>
 </body>
 </html>
